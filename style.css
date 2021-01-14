@@ -5,7 +5,17 @@
 header{
    background-color: #FFF9F4;
 }
-.logo{}
+.navbar .navbar-brand img{
+    width:50%;
+}
+
+.navbar .navbar-brand a{
+    display: block;
+}
+.navbar-toggler{
+    outline: 0;
+}
+
 
 .card-bg{
     background-color: #F1F1F1;
@@ -59,6 +69,28 @@ header{
     width: 100px;
 }
 
+footer{
+   background-color:#FFF9F4;
+}
+
+footer a{
+    padding: 7px 13px;
+    background-color: #fa804c;
+    color: #fff;
+    display: inline-block;
+    font-size: 25px;
+    margin-right: 21px;
+    margin-top: 15px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+footer i{
+    color: #fa804c;
+}
+
+ /* responsive */
+
 @media(max-width:576px){
     
     .flx-direction{
@@ -78,6 +110,16 @@ header{
     }
     .titlee-center{
         text-align: center;
+    }
+
+    .nav-togole{
+        display: flex;
+        justify-content: space-between;
+
+    }
+
+    .navbar .navbar-brand img{
+        width:180px;
     }
 
 
