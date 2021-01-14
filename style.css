@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+   background-color: #FFF9F4;
+}
+.logo{}
+
+.card-bg{
+    background-color: #F1F1F1;
+    height: 300px;
+    border-radius: 22px;
+}
+
+.card_radius{
+    border: 0;
+    border-radius: 20px;
+}
+
+.title_color{
+    font-family: 'Bebas Neue', cursive;
+    color: #363958;
+}
+.head-title{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 80px;
+    font-weight: 500;
+}
+.text-orange{
+    color: #FA804C;
+}
+.text-blue{
+    color: #363958;
+}
+.text-roboto{
+    font-family: 'Roboto', sans-serif;
+}
+.card-ptext{
+    color:#3E3E3E;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+.card-footer-bg{
+    border: 0;
+    background-color: #fff;
+}
+.btn-final{
+    background-color: #3949D9;
+    text-transform: uppercase;
+    word-spacing: 3px;
+    padding: 11px 17px;
+    border: 1px solid #3949D9;
+}
+
+.freaturs img{
+    height: 100px;
+    width: 100px;
+}
+
+@media(max-width:576px){
+    
+    .flx-direction{
+        display: flex;
+        flex-direction: column;
+    }
+    .freaturs-order{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .freaturs{
+        text-align: center;
+    }
+
+    .head-title{
+        font-size: 50px;
+    }
+    .titlee-center{
+        text-align: center;
+    }
+
+
+}
+
